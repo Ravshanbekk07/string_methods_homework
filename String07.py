@@ -7,4 +7,8 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s.isalpha()
+
+
+v = main("12345x")
+print(v)
