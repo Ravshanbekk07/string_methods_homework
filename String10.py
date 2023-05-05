@@ -7,4 +7,7 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.index('o')
+
+v = main("Mobile tpye xiomi")
+print(v)
