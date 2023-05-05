@@ -7,4 +7,7 @@ def main(s):
         bool: answer
     """
     
-    return
+    return s == s.upper()
+
+v = main("CODESCHOOL")
+print(v)
