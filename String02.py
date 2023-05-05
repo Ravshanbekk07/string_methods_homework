@@ -7,4 +7,7 @@ def main(s):
         str: answer
     """
     
-    return
+    return s.upper()
+
+v = main("apple is a fruit")
+print(v)
